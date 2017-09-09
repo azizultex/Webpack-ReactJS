@@ -1,7 +1,7 @@
 import { student, teacher } from './data.js';
 
 import Dog from './dog.js';
-import { add, multiply } from './calculator';
+import { add, multiply, count } from './calculator';
 
 // console.log('Hello ES6 from webpack');
 // console.log('Auto Updatessdf ')
@@ -56,4 +56,6 @@ console.log(name, age);
 console.log(add(8, 2))
 console.log(multiply(8, 2))
 
+
+console.log(count(7))
 
